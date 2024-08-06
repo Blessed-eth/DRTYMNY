@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="./styles.css">
+		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+		<title>DrtyMny</title>
+	</head>
+	<body class="no-scroll">
+		<!-- Navigation Menu for Mobile -->
+		<!-- Navigation Menu for Mobile -->
+		<nav role="navigation">
+			<div id="menuToggle">
+				<!-- A fake / hidden checkbox is used as click receiver,
+so you can use the :checked selector on it. -->
+				<input type="checkbox" />
+
+				<!-- Some spans to act as a hamburger.
+They are acting like a real hamburger,
+not that McDonald's stuff. -->
+				<span></span>
+				<span></span>
+				<span></span>
+
+				<!-- Too bad the menu has to be inside of the button
+but hey, it's pure CSS magic. -->
+				<ul id="menu">
+					<a href="#">
+						<li>Home</li>
+					</a>
+					<a href="#">
+						<li>About</li>
+					</a>
+					<a href="#">
+						<li>Info</li>
+					</a>
+					<a href="#">
+						<li>Contact</li>
+					</a>
+					<a href="https://erikterwan.com/" target="_blank">
+						<li>Show me more</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+
+
+
+		<!-- Rest of your content -->
+		<div class="content">
+			<span class="clickable-title">
+				<h1 id="randomtitle" class="random" class="mirror">Drty$</h1>
+			</span>
+
+
+			<!-- Desktop version titles and animations go here -->
+		</div>
+		<div class="social">
+			<ul id="social-list">
+				<!-- Mobile version icons and links -->
+				<li class="list-item mobile-icon"><a class="item-link" href="https://soundcloud.com/drtymny" target="_blank"><iconify-icon icon="fontisto:soundcloud"></iconify-icon></a></li>
+				<li class="list-item mobile-icon"><a class="item-link" href="https://www.instagram.com/prod.zayy/" target="_blank"><iconify-icon icon="grommet-icons:instagram"></iconify-icon></a></li>
+				<li class="list-item mobile-icon"><a class="item-link" href="#" target="_blank"><iconify-icon icon="fluent:mail-24-filled"></iconify-icon></a></li>
+				<li class="list-item mobile-icon"><a class="item-link" href="https://codepen.io/umarcbs/" target="_blank"><iconify-icon icon="ion:bag-outline"></iconify-icon></a></li>
+
+				<!-- Desktop version links (hidden on mobile) -->
+				<li class="list-item desktop-link"><a class="item-link Telegram" href="#" target="_blank">Soundcloud</a></li>
+				<li class="list-item desktop-link"><a class="item-link Twitter" href="#" target="_blank">Instagram</a></li>
+				<li class="list-item desktop-link"><a class="item-link Medium" href="#" target="_blank">Mail</a></li>
+				<li class="list-item desktop-link"><a class="item-link Codepen" href="https://github.com/Blessed-eth" target="_blank">Sample Packs</a></li>
+			</ul>
+		</div>
+		<script async="async" src="main.js"></script>
+	</body>
+
+</html>
